@@ -1,6 +1,6 @@
 # 🌱 Smartes Minigewächshaus mit Temperaturregelung und Blynk
 
-Dieses Projekt steuert ein kleines Gewächshaus mithilfe von Temperatursensoren, Servomotoren und einem PWM-gesteuerten Lüfter. Es nutzt die Blynk IoT-Plattform, um Temperaturdaten anzuzeigen und die Zieltemperatur per PC-Konsole und Smartphone-App einstellbar zu machen. Das System hält die Temperatur durch automatisches Öffnen von Lüftungsklappen (Servos) und Einschalten des Lüfters im gewünschten Bereich.
+Dieses Projekt steuert ein kleines Gewächshaus mithilfe von Temperatursensoren, Servomotoren und einem PWM-gesteuerten Lüfter. Es nutzt die Blynk IoT-Plattform, um Temperaturdaten anzuzeigen und die Zieltemperatur per PC-Konsole und Smartphone-App einstellbar zu machen. Das System hält die Temperatur durch automatisches Öffnen von Lüftungsklappen (Servos) und Einschalten eines Lüfters im gewünschten Bereich.
 
 ---
 
@@ -10,7 +10,7 @@ Dieses Projekt steuert ein kleines Gewächshaus mithilfe von Temperatursensoren,
 |--------------------|--------------|
 | Mikrocontroller     | MKR WiFi 1010 mit WiFiNINA |
 | 2x DHT11 Sensoren   | Temperatur-/Luftfeuchtigkeitssensor |
-| 2x Servomotoren     | Z. B. SG90 (Fensteröffnung) |
+| 2x Servomotoren     | Z. B. SG90 (Belüftungsklappenöffnung) |
 | 1x Lüfter (PWM)     | Gesteuert über PWM (z. B. PC-Lüfter) |
 | WLAN-Modul          | z. B. integriert im MKR WiFi 1010 |
 | Externe Stromversorgung | Für Servos und Lüfter empfohlen |

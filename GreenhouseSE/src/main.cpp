@@ -13,8 +13,8 @@
 #include <Servo.h>
 
 // WLAN-Zugangsdaten (ändern bei anderem WiFi-Netz)
-char ssid[] = "UPC6669241";
-char pass[] = "kt8nczNGdbrn";
+char ssid[] = "BBZ-WLAN";
+char pass[] = "Das2.letztePW";
 
 // Pinbelegung für die beiden DHT11 Temperatursensoren definieren
 #define DHTPIN1 7
